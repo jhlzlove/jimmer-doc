@@ -9,7 +9,7 @@ const config = {
   tagline: 'Not only ORM, but also a complete integrated solution',
   url: 'https://github.com',
   baseUrl: '/jimmer-doc/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/logo.png',
 
@@ -46,9 +46,14 @@ const config = {
           lastVersion: 'current',
           versions: {
             current: {
-              label: 'current',
+              label: 'Current',
               path: 'current',
             },
+            '0.x': {
+              label: '0.x',
+              path: '0.x',
+              banner: 'unmaintained',
+            }
           },
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
@@ -103,6 +108,7 @@ const config = {
         alt: 'My Site Logo',
         src: '/img/logo.png',
       },
+      
       items: [
         {
           type: 'doc',
@@ -124,6 +130,10 @@ const config = {
           position: 'right'
         },
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/babyfish-ct/jimmer',
           label: 'Docs',
           position: 'right',
@@ -134,6 +144,7 @@ const config = {
           position: 'right',
         },
       ],
+      
     },
     footer: {
       style: 'dark',

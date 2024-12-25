@@ -18,7 +18,7 @@ As a comprehensive solution, Jimmer is not limited to ORM itself, but considers 
 
     A solution tailored for Jimmer with extremely high development efficiency.
 
-    [DTO Language](./dto-language.mdx) is designed for that part of the DTO types that cannot be eliminated, with the goal of making them extremely cheap.
+    [DTO Language](./dto-language) is designed for that part of the DTO types that cannot be eliminated, with the goal of making them extremely cheap.
 
 -   MapStruct
 
