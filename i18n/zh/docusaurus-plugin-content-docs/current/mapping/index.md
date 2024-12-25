@@ -7,7 +7,7 @@
     和JPA相比，区别很大的内容有：
 
     -   基础映射：
-        -   [可空性](./base/nullity.mdx)
+        -   [可空性](./base/nullity)
 
     -   高级映射
         -   [视图属性](./advanced/view/)

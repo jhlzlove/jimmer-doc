@@ -8,4 +8,4 @@
 -   [优化不必要连接](./optimization)
 -   [分页安全性](./table-ex)
 -   [弱连接](./weak-join)
--   [Kotlin表连接特有功能](./kotlin-join.mdx)
+-   [Kotlin表连接特有功能](./kotlin-join)
