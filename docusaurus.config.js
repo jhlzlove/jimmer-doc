@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/jimmer-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://raw.githubusercontent.com/babyfish-ct/jimmer-doc/main/logo.png',
+  favicon: '/img/logo.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -43,6 +43,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'current',
+              path: 'current',
+            },
+          },
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -94,7 +101,7 @@ const config = {
       title: 'Jimmer documentation',
       logo: {
         alt: 'My Site Logo',
-        src: 'https://raw.githubusercontent.com/babyfish-ct/jimmer-doc/main/logo.png',
+        src: '/img/logo.png',
       },
       items: [
         {
@@ -118,7 +125,12 @@ const config = {
         },
         {
           href: 'https://github.com/babyfish-ct/jimmer',
-          label: 'GitHub',
+          label: 'Docs',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/babyfish-ct/jimmer',
+          label: 'Github',
           position: 'right',
         },
       ],
