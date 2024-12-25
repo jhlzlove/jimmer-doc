@@ -1,6 +1,8 @@
----
-sidebar_position: 10
-title: GraphQL篇
----
+# GraphQL篇
 
 在这一系列文章中，我们会介绍如何基于Jimmer快速实现GraphQL服务。
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

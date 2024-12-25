@@ -1,7 +1,4 @@
----
-sidebar_position: 11
-title: 对象篇
----
+# 对象篇
 
 在本系列文章中，我们详细讨论Jimmer对象的动态性和不可变性。
 
@@ -16,3 +13,8 @@ title: 对象篇
 :::tip
 Jimmer对象的动态性和不可变性是整个Jimmer世界的底层基础。
 :::
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

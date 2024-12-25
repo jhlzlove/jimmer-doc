@@ -1,7 +1,4 @@
----
-sidebar_position: 5
-title: DTO conversion 
----
+# DTO conversion
 
 Even if entity objects support dynamism to express arbitrary data structures, conversion between entities and DTOs is still unavoidable.
 
@@ -26,3 +23,8 @@ As a comprehensive solution, Jimmer is not limited to ORM itself, but considers 
 -   MapStruct
 
     A solution that combines the [MapStruct](https://mapstruct.org/) framework and can implement arbitrarily complex conversion logic.
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

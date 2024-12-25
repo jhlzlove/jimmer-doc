@@ -139,11 +139,49 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Learn',
           items: [
             {
               label: 'Tutorial',
               to: '/docs/overview/introduction',
+            },
+            {
+              label: 'Examples',
+              to: 'https://github.com/babyfish-ct/jimmer-examples',
+            },
+            {
+              label: 'Github',
+              href: 'https://github.com/babyfish-ct/jimmer',
+            },
+            {
+              label: 'Github Docs',
+              href: 'https://github.com/babyfish-ct/jimmer-doc',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/PmgR5mpY3E',
+            },
+            {
+              label: 'QQ Group',
+              href: 'https://qm.qq.com/q/GoakYJDFCi',
+            },
+          ],
+        },
+        {
+          title: 'Video',
+          items: [
+            {
+              label: 'babyfish-ct Bilibili',
+              to: 'https://space.bilibili.com/402978157/video',
+            },
+            {
+              label: 'Other Bilibili',
+              to: 'https://space.bilibili.com/2440641/channel/collectiondetail?sid=3937541&spm_id_from=333.788.0.0',
             },
           ],
         },

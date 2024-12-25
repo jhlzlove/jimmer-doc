@@ -10,3 +10,8 @@ Jimmer provides Spring Data Repository style APIs, so you can:
 -   Declare simple queries through abstract methods
 
 -   Implement complex queries through default methods
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

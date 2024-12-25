@@ -16,3 +16,8 @@ In this series of articles, we thoroughly discuss the dynamicity and immutabilit
 :::tip
 The dynamicity and immutability of Jimmer objects underpin the entire Jimmer ecosystem.
 :::
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
