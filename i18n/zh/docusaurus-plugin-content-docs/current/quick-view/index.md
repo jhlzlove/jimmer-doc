@@ -1,7 +1,4 @@
----
-sidebar_position: 2
-title: 快速预览 ★
----
+# 快速预览 ★
 
 本章节仅仅罗列Jimmer中最重要功能的使用方法，让读者建立一个初步印象。
 
@@ -14,3 +11,8 @@ title: 快速预览 ★
 -   保存任意形状的数据结构
 
 -   任意复杂的动态查询实现
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

@@ -1,4 +1,1 @@
----
-sidebar_position: 5
-title: 5. 排序
----
+# 5. 排序

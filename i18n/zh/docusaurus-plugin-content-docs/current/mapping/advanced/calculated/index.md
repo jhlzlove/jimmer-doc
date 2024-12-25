@@ -1,7 +1,4 @@
----
-sidebar_position: 5
-title: 计算属性
----
+# 计算属性
 
 在这里，你会了解到Jimmer的计算属性，以及注解：
 

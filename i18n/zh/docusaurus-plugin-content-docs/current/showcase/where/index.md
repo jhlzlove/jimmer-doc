@@ -1,4 +1,1 @@
----
-sidebar_position: 4
-title: 4. 条件
----
+# 4. 条件

@@ -1,7 +1,4 @@
----
-sidebar_position: 4
-title: 3. 任意动态查询
----
+# 3. 任意动态查询
 
 Jimmer支持强类型SQL DSL。
 
@@ -12,3 +9,8 @@ Jimmer支持强类型SQL DSL。
 :::
 
 另外，对于特定数据库产品拥有的非SQL标准的强大功能，Jimmer的SQL DSL能嵌入Native SQL片段，强类型DSL的抽象不会影响开发人员尽情使用数据的特有功能。*(这部分功能不会在快速预览中介绍，有兴趣的督责请查看[查询篇/Native表达式](../../query/native-sql))*
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

@@ -1,7 +1,4 @@
----
-sidebar_position: 11
-title: Input DTO
----
+# Input DTO
 
 虽然底层的保持指令非常强大，但这离最终对外提供数据保存API还有一段距离。
 

@@ -1,7 +1,4 @@
----
-sidebar_position: 5
-title: 查询篇
----
+# 查询篇
 
 在这个章节中，我们将会在不考虑[缓存](../cache)的情况下介绍Jimmer中各种查询。
 
