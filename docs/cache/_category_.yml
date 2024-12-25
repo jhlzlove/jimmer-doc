@@ -1,0 +1,10 @@
+position: 7 # float position is supported
+# 会覆盖下方 link id 引用中的 sidebar_label
+# label: Cache
+# 是否可折叠，默认可折叠
+# collapsible: true
+# 是否折叠，默认折叠
+# collapsed: false
+link:
+  type: doc
+  id: index

@@ -1,11 +1,13 @@
 ---
-sidebar_position: 7  
-title: Cache
+sidebar_label: Cache
 ---
 
-import { ViewMore } from '@site/src/components/ViewMore';
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
 import { CacheConsistencyPanel } from '@site/src/components/HomepageFeatures/CacheConsistency';
-import { DtoExplosion, ObjectCache, AssociationCache, MultiViewCache, CalculatedCache } from "@site/src/components/Image";
+import { AssociationCache, CalculatedCache, DtoExplosion, MultiViewCache, ObjectCache } from "@site/src/components/Image";
+import { ViewMore } from '@site/src/components/ViewMore';
+import DocCardList from '@theme/DocCardList';
 
 
 Jimmer provides powerful cache support capabilities.
@@ -21,3 +23,5 @@ Jimmer provides powerful cache support capabilities.
 -   Features represented by permission systems allow different users to see different data. Therefore, Jimmer uses <ViewMore buttonText="multi-view cache"><MultiViewCache/></ViewMore> to allow different users to see different caches.
 
 -   Powerful cache consistency support. Developers can focus on modifying the database and Jimmer will automatically <ViewMore buttonText="invalidate cache"><CacheConsistencyPanel/></ViewMore>.
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

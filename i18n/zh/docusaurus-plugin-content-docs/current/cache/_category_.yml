@@ -1,0 +1,8 @@
+position: 7 # float position is supported
+# 是否可折叠，默认可折叠
+# collapsible: true
+# 是否折叠，默认折叠
+# collapsed: false
+link:
+  type: doc
+  id: index

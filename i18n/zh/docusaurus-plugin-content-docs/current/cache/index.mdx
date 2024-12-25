@@ -1,12 +1,14 @@
 ---
-sidebar_position: 7
-title: 缓存篇
+sidebar_label: 缓存篇
 ---
 
-import { ViewMore } from '@site/src/components/ViewMore';
-import { CacheConsistencyPanel } from '@site/src/components/HomepageFeatures/CacheConsistency';
-import { DtoExplosion, ObjectCache, AssociationCache, MultiViewCache, CalculatedCache } from "@site/src/components/Image";
+# 缓存
 
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import { CacheConsistencyPanel } from '@site/src/components/HomepageFeatures/CacheConsistency';
+import { AssociationCache, CalculatedCache, DtoExplosion, MultiViewCache, ObjectCache } from "@site/src/components/Image";
+import { ViewMore } from '@site/src/components/ViewMore';
+import DocCardList from '@theme/DocCardList';
 
 Jimmer提供了强大的缓存支持能力。
 
@@ -21,3 +23,5 @@ Jimmer提供了强大的缓存支持能力。
 -   以权限系统为代表的功能会让不同用户看到不同的数据，因此，Jimmer通过<ViewMore buttonText="多视图缓存"><MultiViewCache/></ViewMore>来让不同用户看到不同的缓存。
 
 -   强大的缓存一致性支持，开发人员专注于修改数据库即可，Jimmer自动<ViewMore buttonText="保证数据库和缓存的一致性"><CacheConsistencyPanel/></ViewMore>
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
