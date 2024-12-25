@@ -14,3 +14,8 @@ In this section, we take a quick tour of the three most core features of Jimmer
 -   Save arbitrary data structures
 
 -   Implement arbitrarily complex dynamic queries
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

@@ -1,7 +1,4 @@
----
-sidebar_position: 11
-title: Input DTO
----
+# Input DTO
 
 Although the underlying save commands are very powerful, there is still some way to go before exposing data persistence APIs externally.  
 

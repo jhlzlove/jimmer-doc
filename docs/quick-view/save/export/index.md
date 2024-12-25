@@ -1,7 +1,4 @@
----  
-sidebar_position: 2
-title: Exposing Features
----  
+# Exposing Features
 
 In [Save Any Shape/Feature Introduction](../feature), we introduced the powerful data saving capability of Jimmer,  
 but also pointed out that for security reasons, Jimmer dynamic entities cannot be directly used as input parameters to directly expose this capability.  

@@ -1,7 +1,4 @@
----
-sidebar_position: 3
-title: Association Mapping
----
+# Association Mapping
 
 Here, you will learn about the most important capability of ORM: entity relationship mapping. You will learn about these annotations:
 

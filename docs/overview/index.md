@@ -1,7 +1,4 @@
----
-sidebar_position: 1
-title: Introduction ★
----
+# Introduction ★
 
 In this series of articles, we will introduce:
 
@@ -10,3 +7,8 @@ In this series of articles, we will introduce:
 - The examples that come with the project
 - How to create a Jimmer project from scratch
 - Jimmer's performance advantages
+
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>

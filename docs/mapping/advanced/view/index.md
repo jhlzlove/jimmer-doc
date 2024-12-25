@@ -1,7 +1,4 @@
----
-sidebar_position: 4
-title: View Properties
----
+# View Properties
 
 View properties do not maintain their own data, they are just another representation of another attribute *(called original attribute)* of their owning entity type.
 

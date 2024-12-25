@@ -1,4 +1,1 @@
----
-sidebar_position: 4
-title: Associations
----
+# Associations

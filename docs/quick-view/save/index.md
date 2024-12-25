@@ -1,7 +1,4 @@
----
-sidebar_position: 3  
-title: 2. Save Arbitrary Shape  
----
+# 2. Save Arbitrary Shape
 
 The save directive is a very powerful capability of Jimmer. With just one function call, data structures of any shape can be saved.  
 

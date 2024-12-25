@@ -1,7 +1,4 @@
----
-sidebar_position: 4 
-title: 3. Arbitrary Dynamic Query
----  
+# 3. Arbitrary Dynamic Query
 
 Jimmer supports strongly typed SQL DSL.  
 

@@ -1,7 +1,4 @@
----
-sidebar_position: 12  
-title: Global Filters
----
+# Global Filters
 
 Global filters are used to automatically add filtering conditions for an entity type. Most queries for the entity type will automatically have related `where` conditions added.
 
